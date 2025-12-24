@@ -1,6 +1,6 @@
 def stock_picker(array)
-  if (array.length <= 0)
-    put "It is not posible to work with no data"
+  if (array.length <= 1)
+    puts "This is not enought data, to work "
   end
   all_results = []
   for i in 0...array.length
